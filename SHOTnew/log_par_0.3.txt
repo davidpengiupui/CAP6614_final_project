@@ -1,0 +1,296 @@
+==========================================
+gpu_id:3
+s:2
+t:0
+max_epoch:30
+interval:120
+batch_size:64
+worker:4
+dset:office
+lr:0.001
+net:resnet50
+seed:2020
+gent:True
+ent:True
+threshold:0
+cls_par:0.3
+ent_par:1.0
+lr_decay1:0.1
+lr_decay2:1.0
+bottleneck:256
+epsilon:1e-05
+layer:wn
+classifier:bn
+distance:cosine
+output:san
+output_src:san
+da:uda
+ssl:0.2
+issave:True
+class_num:31
+s_dset_path:./data/office/webcam_list.txt
+t_dset_path:./data/office/amazon_list.txt
+test_dset_path:./data/office/amazon_list.txt
+output_dir_src:san/uda/office/W
+output_dir:san/uda/office/WA
+name:WA
+savename:par_0.3
+out_file:<_io.TextIOWrapper name='san/uda/office/WA/log_par_0.3.txt' mode='w' encoding='UTF-8'>
+
+Task: WA, Iter:135/1350; Accuracy = 21.62%
+Task: WA, Iter:270/1350; Accuracy = 25.63%
+Task: WA, Iter:405/1350; Accuracy = 29.75%
+Task: WA, Iter:540/1350; Accuracy = 30.42%
+Task: WA, Iter:675/1350; Accuracy = 32.55%
+Task: WA, Iter:810/1350; Accuracy = 32.16%
+Task: WA, Iter:945/1350; Accuracy = 32.13%
+Task: WA, Iter:1080/1350; Accuracy = 34.61%
+Task: WA, Iter:1215/1350; Accuracy = 35.53%
+Task: WA, Iter:1350/1350; Accuracy = 34.90%
+Best Accuracy = 35.53%
+Accuracy = 62.62% -> 72.59%
+Task: WA, Iter:11/1350; Accuracy = 60.06%
+Accuracy = 60.06% -> 68.44%
+Task: WA, Iter:22/1350; Accuracy = 60.70%
+Accuracy = 60.70% -> 68.09%
+Task: WA, Iter:33/1350; Accuracy = 62.09%
+Accuracy = 62.09% -> 68.97%
+Task: WA, Iter:44/1350; Accuracy = 63.47%
+Accuracy = 63.47% -> 70.00%
+Task: WA, Iter:55/1350; Accuracy = 63.83%
+Accuracy = 63.83% -> 70.36%
+Task: WA, Iter:66/1350; Accuracy = 64.11%
+Accuracy = 64.11% -> 69.83%
+Task: WA, Iter:77/1350; Accuracy = 64.15%
+Accuracy = 64.15% -> 70.00%
+Task: WA, Iter:88/1350; Accuracy = 65.03%
+Accuracy = 65.03% -> 70.07%
+Task: WA, Iter:99/1350; Accuracy = 65.50%
+Accuracy = 65.50% -> 70.50%
+Task: WA, Iter:110/1350; Accuracy = 65.64%
+Accuracy = 65.64% -> 70.71%
+Task: WA, Iter:121/1350; Accuracy = 65.67%
+Accuracy = 65.67% -> 70.29%
+Task: WA, Iter:132/1350; Accuracy = 66.45%
+Accuracy = 66.45% -> 70.43%
+Task: WA, Iter:143/1350; Accuracy = 66.49%
+Accuracy = 66.49% -> 70.54%
+Task: WA, Iter:154/1350; Accuracy = 66.28%
+Accuracy = 66.28% -> 70.32%
+Task: WA, Iter:165/1350; Accuracy = 66.99%
+Accuracy = 66.99% -> 70.64%
+Task: WA, Iter:176/1350; Accuracy = 67.31%
+Accuracy = 67.31% -> 70.96%
+Task: WA, Iter:187/1350; Accuracy = 67.16%
+Accuracy = 67.16% -> 70.93%
+Task: WA, Iter:198/1350; Accuracy = 67.55%
+Accuracy = 67.55% -> 70.75%
+Task: WA, Iter:209/1350; Accuracy = 67.84%
+Accuracy = 67.84% -> 71.00%
+Task: WA, Iter:220/1350; Accuracy = 68.12%
+Accuracy = 68.12% -> 71.03%
+Task: WA, Iter:231/1350; Accuracy = 68.30%
+Accuracy = 68.30% -> 71.10%
+Task: WA, Iter:242/1350; Accuracy = 68.34%
+Accuracy = 68.34% -> 70.89%
+Task: WA, Iter:253/1350; Accuracy = 68.69%
+Accuracy = 68.69% -> 71.28%
+Task: WA, Iter:264/1350; Accuracy = 68.94%
+Accuracy = 68.94% -> 71.10%
+Task: WA, Iter:275/1350; Accuracy = 69.01%
+Accuracy = 69.01% -> 71.39%
+Task: WA, Iter:286/1350; Accuracy = 69.05%
+Accuracy = 69.05% -> 70.96%
+Task: WA, Iter:297/1350; Accuracy = 68.97%
+Accuracy = 68.97% -> 71.28%
+Task: WA, Iter:308/1350; Accuracy = 69.05%
+Accuracy = 69.05% -> 71.03%
+Task: WA, Iter:319/1350; Accuracy = 69.22%
+Accuracy = 69.22% -> 71.18%
+Task: WA, Iter:330/1350; Accuracy = 69.79%
+Accuracy = 69.79% -> 71.42%
+Task: WA, Iter:341/1350; Accuracy = 69.40%
+Accuracy = 69.40% -> 71.18%
+Task: WA, Iter:352/1350; Accuracy = 69.08%
+Accuracy = 69.08% -> 70.86%
+Task: WA, Iter:363/1350; Accuracy = 69.15%
+Accuracy = 69.15% -> 71.32%
+Task: WA, Iter:374/1350; Accuracy = 69.72%
+Accuracy = 69.72% -> 71.32%
+Task: WA, Iter:385/1350; Accuracy = 69.68%
+Accuracy = 69.68% -> 71.35%
+Task: WA, Iter:396/1350; Accuracy = 69.26%
+Accuracy = 69.26% -> 71.21%
+Task: WA, Iter:407/1350; Accuracy = 69.68%
+Accuracy = 69.68% -> 71.07%
+Task: WA, Iter:418/1350; Accuracy = 69.72%
+Accuracy = 69.72% -> 71.32%
+Task: WA, Iter:429/1350; Accuracy = 69.58%
+Accuracy = 69.58% -> 71.10%
+Task: WA, Iter:440/1350; Accuracy = 69.79%
+Accuracy = 69.79% -> 71.39%
+Task: WA, Iter:451/1350; Accuracy = 69.54%
+Accuracy = 69.54% -> 71.85%
+Task: WA, Iter:462/1350; Accuracy = 69.86%
+Accuracy = 69.86% -> 71.39%
+Task: WA, Iter:473/1350; Accuracy = 69.97%
+Accuracy = 69.97% -> 71.67%
+Task: WA, Iter:484/1350; Accuracy = 69.79%
+Accuracy = 69.79% -> 71.32%
+Task: WA, Iter:495/1350; Accuracy = 69.68%
+Accuracy = 69.68% -> 71.18%
+Task: WA, Iter:506/1350; Accuracy = 69.93%
+Accuracy = 69.93% -> 71.35%
+Task: WA, Iter:517/1350; Accuracy = 70.93%
+Accuracy = 70.93% -> 71.99%
+Task: WA, Iter:528/1350; Accuracy = 69.76%
+Accuracy = 69.76% -> 71.32%
+Task: WA, Iter:539/1350; Accuracy = 70.04%
+Accuracy = 70.04% -> 71.32%
+Task: WA, Iter:550/1350; Accuracy = 69.93%
+Accuracy = 69.93% -> 71.39%
+Task: WA, Iter:561/1350; Accuracy = 70.00%
+Accuracy = 70.00% -> 71.49%
+Task: WA, Iter:572/1350; Accuracy = 70.39%
+Accuracy = 70.39% -> 71.88%
+Task: WA, Iter:583/1350; Accuracy = 70.36%
+Accuracy = 70.36% -> 71.53%
+Task: WA, Iter:594/1350; Accuracy = 69.79%
+Accuracy = 69.79% -> 71.28%
+Task: WA, Iter:605/1350; Accuracy = 70.36%
+Accuracy = 70.36% -> 71.57%
+Task: WA, Iter:616/1350; Accuracy = 70.39%
+Accuracy = 70.39% -> 71.67%
+Task: WA, Iter:627/1350; Accuracy = 70.15%
+Accuracy = 70.15% -> 71.57%
+Task: WA, Iter:638/1350; Accuracy = 70.57%
+Accuracy = 70.57% -> 71.92%
+Task: WA, Iter:649/1350; Accuracy = 70.47%
+Accuracy = 70.47% -> 71.28%
+Task: WA, Iter:660/1350; Accuracy = 70.36%
+Accuracy = 70.36% -> 71.46%
+Task: WA, Iter:671/1350; Accuracy = 70.57%
+Accuracy = 70.57% -> 71.46%
+Task: WA, Iter:682/1350; Accuracy = 70.29%
+Accuracy = 70.29% -> 71.35%
+Task: WA, Iter:693/1350; Accuracy = 70.25%
+Accuracy = 70.25% -> 71.35%
+Task: WA, Iter:704/1350; Accuracy = 70.22%
+Accuracy = 70.22% -> 71.74%
+Task: WA, Iter:715/1350; Accuracy = 70.57%
+Accuracy = 70.57% -> 71.74%
+Task: WA, Iter:726/1350; Accuracy = 70.39%
+Accuracy = 70.39% -> 71.53%
+Task: WA, Iter:737/1350; Accuracy = 70.75%
+Accuracy = 70.75% -> 71.74%
+Task: WA, Iter:748/1350; Accuracy = 70.68%
+Accuracy = 70.68% -> 71.71%
+Task: WA, Iter:759/1350; Accuracy = 70.61%
+Accuracy = 70.61% -> 72.03%
+Task: WA, Iter:770/1350; Accuracy = 70.36%
+Accuracy = 70.36% -> 71.78%
+Task: WA, Iter:781/1350; Accuracy = 70.89%
+Accuracy = 70.89% -> 71.78%
+Task: WA, Iter:792/1350; Accuracy = 70.71%
+Accuracy = 70.71% -> 71.64%
+Task: WA, Iter:803/1350; Accuracy = 70.71%
+Accuracy = 70.71% -> 71.78%
+Task: WA, Iter:814/1350; Accuracy = 70.39%
+Accuracy = 70.39% -> 71.64%
+Task: WA, Iter:825/1350; Accuracy = 70.57%
+Accuracy = 70.57% -> 71.64%
+Task: WA, Iter:836/1350; Accuracy = 70.22%
+Accuracy = 70.22% -> 71.71%
+Task: WA, Iter:847/1350; Accuracy = 70.61%
+Accuracy = 70.61% -> 72.03%
+Task: WA, Iter:858/1350; Accuracy = 70.57%
+Accuracy = 70.57% -> 71.67%
+Task: WA, Iter:869/1350; Accuracy = 70.75%
+Accuracy = 70.75% -> 72.06%
+Task: WA, Iter:880/1350; Accuracy = 70.78%
+Accuracy = 70.78% -> 71.85%
+Task: WA, Iter:891/1350; Accuracy = 70.82%
+Accuracy = 70.82% -> 71.88%
+Task: WA, Iter:902/1350; Accuracy = 70.86%
+Accuracy = 70.86% -> 71.88%
+Task: WA, Iter:913/1350; Accuracy = 70.64%
+Accuracy = 70.64% -> 71.67%
+Task: WA, Iter:924/1350; Accuracy = 70.61%
+Accuracy = 70.61% -> 71.88%
+Task: WA, Iter:935/1350; Accuracy = 70.43%
+Accuracy = 70.43% -> 71.88%
+Task: WA, Iter:946/1350; Accuracy = 70.61%
+Accuracy = 70.61% -> 71.74%
+Task: WA, Iter:957/1350; Accuracy = 70.57%
+Accuracy = 70.57% -> 71.78%
+Task: WA, Iter:968/1350; Accuracy = 70.75%
+Accuracy = 70.75% -> 71.81%
+Task: WA, Iter:979/1350; Accuracy = 70.96%
+Accuracy = 70.96% -> 72.17%
+Task: WA, Iter:990/1350; Accuracy = 71.10%
+Accuracy = 71.10% -> 71.71%
+Task: WA, Iter:1001/1350; Accuracy = 70.68%
+Accuracy = 70.68% -> 71.81%
+Task: WA, Iter:1012/1350; Accuracy = 70.86%
+Accuracy = 70.86% -> 71.85%
+Task: WA, Iter:1023/1350; Accuracy = 70.75%
+Accuracy = 70.75% -> 72.03%
+Task: WA, Iter:1034/1350; Accuracy = 70.86%
+Accuracy = 70.86% -> 71.88%
+Task: WA, Iter:1045/1350; Accuracy = 70.39%
+Accuracy = 70.39% -> 71.57%
+Task: WA, Iter:1056/1350; Accuracy = 70.54%
+Accuracy = 70.54% -> 71.71%
+Task: WA, Iter:1067/1350; Accuracy = 71.00%
+Accuracy = 71.00% -> 71.71%
+Task: WA, Iter:1078/1350; Accuracy = 70.78%
+Accuracy = 70.78% -> 71.60%
+Task: WA, Iter:1089/1350; Accuracy = 70.93%
+Accuracy = 70.93% -> 71.96%
+Task: WA, Iter:1100/1350; Accuracy = 70.86%
+Accuracy = 70.86% -> 71.85%
+Task: WA, Iter:1111/1350; Accuracy = 70.96%
+Accuracy = 70.96% -> 71.96%
+Task: WA, Iter:1122/1350; Accuracy = 70.78%
+Accuracy = 70.78% -> 71.60%
+Task: WA, Iter:1133/1350; Accuracy = 70.68%
+Accuracy = 70.68% -> 71.57%
+Task: WA, Iter:1144/1350; Accuracy = 71.10%
+Accuracy = 71.10% -> 72.06%
+Task: WA, Iter:1155/1350; Accuracy = 70.89%
+Accuracy = 70.89% -> 71.92%
+Task: WA, Iter:1166/1350; Accuracy = 71.18%
+Accuracy = 71.18% -> 71.88%
+Task: WA, Iter:1177/1350; Accuracy = 71.00%
+Accuracy = 71.00% -> 71.67%
+Task: WA, Iter:1188/1350; Accuracy = 71.07%
+Accuracy = 71.07% -> 71.85%
+Task: WA, Iter:1199/1350; Accuracy = 70.89%
+Accuracy = 70.89% -> 71.81%
+Task: WA, Iter:1210/1350; Accuracy = 71.28%
+Accuracy = 71.28% -> 71.99%
+Task: WA, Iter:1221/1350; Accuracy = 71.14%
+Accuracy = 71.14% -> 71.96%
+Task: WA, Iter:1232/1350; Accuracy = 70.93%
+Accuracy = 70.93% -> 72.10%
+Task: WA, Iter:1243/1350; Accuracy = 71.03%
+Accuracy = 71.03% -> 71.99%
+Task: WA, Iter:1254/1350; Accuracy = 70.82%
+Accuracy = 70.82% -> 71.74%
+Task: WA, Iter:1265/1350; Accuracy = 70.86%
+Accuracy = 70.86% -> 71.88%
+Task: WA, Iter:1276/1350; Accuracy = 71.18%
+Accuracy = 71.18% -> 72.13%
+Task: WA, Iter:1287/1350; Accuracy = 70.75%
+Accuracy = 70.75% -> 71.85%
+Task: WA, Iter:1298/1350; Accuracy = 71.35%
+Accuracy = 71.35% -> 71.85%
+Task: WA, Iter:1309/1350; Accuracy = 71.10%
+Accuracy = 71.10% -> 72.03%
+Task: WA, Iter:1320/1350; Accuracy = 71.21%
+Accuracy = 71.21% -> 72.06%
+Task: WA, Iter:1331/1350; Accuracy = 71.42%
+Accuracy = 71.42% -> 72.31%
+Task: WA, Iter:1342/1350; Accuracy = 70.89%
+Accuracy = 70.89% -> 71.96%
+Task: WA, Iter:1350/1350; Accuracy = 71.25%
