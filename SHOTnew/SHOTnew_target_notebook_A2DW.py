@@ -56,7 +56,7 @@ parser.add_argument('--distance', type=str, default='cosine', choices=["euclidea
 parser.add_argument('--output', type=str, default='san')
 parser.add_argument('--output_src', type=str, default='san')
 parser.add_argument('--da', type=str, default='uda', choices=['uda', 'pda'])
-parser.add_argument('--ssl', type=float, default=0.6) 
+parser.add_argument('--ssl', type=float, default=1.2) 
 parser.add_argument('--issave', type=bool, default=True)
 args = parser.parse_args(args=[])
 
