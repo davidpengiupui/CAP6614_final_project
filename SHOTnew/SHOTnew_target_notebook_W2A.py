@@ -861,7 +861,7 @@ def train_target(args):
             classifier_loss += im_loss
             
         classifier_loss.backward()
-        args.ssl = 0
+        #args.ssl = 0
         if not args.ssl == 0:
             r_labels_target = np.random.randint(0, 8, len(inputs_test))
             r_inputs_target = rotate_batch_with_labels(inputs_test, r_labels_target)
