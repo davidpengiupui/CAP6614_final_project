@@ -25,7 +25,7 @@ distance:cosine
 output:san
 output_src:san
 da:uda
-ssl:0
+ssl:1.2
 issave:True
 class_num:31
 s_dset_path:./data/office/amazon_list.txt
