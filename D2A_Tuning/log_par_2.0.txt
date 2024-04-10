@@ -25,7 +25,7 @@ distance:cosine
 output:san
 output_src:san
 da:uda
-ssl:0.2
+ssl:2.0
 issave:True
 class_num:31
 s_dset_path:./data/office/dslr_list.txt
@@ -34,8 +34,8 @@ test_dset_path:./data/office/amazon_list.txt
 output_dir_src:san/uda/office/D
 output_dir:san/uda/office/DA
 name:DA
-savename:par_0.2
-out_file:<_io.TextIOWrapper name='san/uda/office/DA/log_par_0.2.txt' mode='w' encoding='UTF-8'>
+savename:par_2.0
+out_file:<_io.TextIOWrapper name='san/uda/office/DA/log_par_2.0.txt' mode='w' encoding='UTF-8'>
 
 Task: DA, Iter:270/2700; Accuracy = 27.51%
 Task: DA, Iter:540/2700; Accuracy = 31.66%
