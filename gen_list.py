@@ -10,7 +10,7 @@ import os
 # In[2]:
 
 
-dataset = 'VISDA-C'
+dataset = 'office'
 
 
 # In[3]:
